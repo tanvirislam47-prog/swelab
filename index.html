@@ -42,6 +42,13 @@
         <p>This is a simple profile card created using HTML and CSS. You can easily modify the code as you like.</p>
         <a href="#" class="btn">Read More</a>
     </div>
-
+<script>
+        // JavaScript function to handle the like count
+        let likeCount = 0;
+        function incrementLike() {
+            likeCount++;
+            document.getElementById('count').innerText = likeCount;
+        }
+    </script>
 </body>
 </html>
